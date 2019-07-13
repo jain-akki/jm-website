@@ -18,6 +18,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="profile" href="https://gmpg.org/xfn/11"/>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+	<link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/images/favicon.jpg'; ?>">
 
 	<!--  Font Awesome Icon-->
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/fonts/fontawesome/css/all.css">

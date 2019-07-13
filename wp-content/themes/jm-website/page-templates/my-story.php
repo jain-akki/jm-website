@@ -5,17 +5,11 @@
 ?>
 
 <?php get_header(); ?>
-<main id="my-story">
-	<section class="first-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<h1>My Story</h1>
-				</div>
-			</div>
-		</div>
+<main class="my-story">
+	<section class="my-story-heading">
+		<h1>My Story</h1>
 	</section>
-	<section class="second-section">
+	<section class="my-story-lead-from-self">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-7">
@@ -38,13 +32,13 @@
 						life.
 					</p>
 				</div>
-				<div class="col-12 col-md-5 text-center">
+				<div class="col-12 col-md-5 text-center order-first order-md-last">
 					<img src="<?php echo get_template_directory_uri() . '/images/about/jaya.jpg'; ?>" alt="">
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="third-section">
+	<section class="my-story-life-changing-experience">
 		<div class="container">
 
 			<div class="row pb-3">
@@ -81,11 +75,12 @@
 						<img src="<?php echo get_template_directory_uri() . '/images/home/examine.png'; ?>" alt="">
 					</div>
 				</div>
-				<div class="col-12 col-md-9 order-first">
+				<div class="col-12 col-md-9 order-md-first">
 					<div class="meta-info">
-						<h4 class="text-right">Examine</h4>
-						<span class="text-right d-block">Get closer to yourself</span>
-						<p class="text-justify">In most instances, human mind is ‘split’ by constituents of self which prevent us from moving forward.
+						<h4 class="text-md-right">Examine</h4>
+						<span class="text-md-right">Get closer to yourself</span>
+						<p class="text-md-justify">In most instances, human mind is ‘split’ by constituents of self which prevent us
+							from moving forward.
 							When we acknowledge the presence of these parts and give them a voice, we create value, clear blockages
 							and gain insights into self. Self-discovery makes the ‘whole’ bigger than the ‘sum of the parts’</p>
 					</div>

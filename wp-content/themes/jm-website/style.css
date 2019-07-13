@@ -2218,15 +2218,6 @@ h6 {
   clear: both;
   margin: 1rem 0; }
 
-h1:not(.site-title):before,
-h2:before {
-  background: #767676;
-  content: "\020";
-  display: block;
-  height: 2px;
-  margin: 1rem 0;
-  width: 1em; }
-
 hr {
   background-color: #767676;
   border: 0;
@@ -5118,37 +5109,50 @@ a {
       font-weight: 300;
       color: #ffffff; }
 
-#my-story .first-section {
+.my-story-heading {
   background: url(./images/home/banner.jpg);
   background-size: cover;
-  height: 22vh;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
+  height: 170px;
   position: relative; }
-  #my-story .first-section h1 {
+  @media only screen and (max-width: 768px) {
+    .my-story-heading {
+      height: 45vh; } }
+  .my-story-heading h1 {
+    display: inline-block;
     font-size: 40px;
     text-transform: uppercase;
-    color: #ffb260;
-    height: 100%;
+    color: #ffb362;
+    margin: 0;
     position: absolute;
-    bottom: -5px; }
-#my-story .second-section {
+    left: 150px;
+    bottom: 0px; }
+    @media only screen and (max-width: 768px) {
+      .my-story-heading h1 {
+        left: 50%;
+        transform: translateX(-50%);
+        color: #ffcc95; } }
+.my-story-lead-from-self {
   padding: 70px 0px 200px 0px;
   background-image: url(./images/home/clouds.png);
   background-size: cover;
   background-position: bottom;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%); }
-  #my-story .second-section h2 {
+  @media only screen and (max-width: 768px) {
+    .my-story-lead-from-self {
+      clip-path: none;
+      padding: 70px 0px;
+      text-align: center; } }
+  .my-story-lead-from-self h2 {
     font-size: 30px;
     color: #56565e;
     margin: 0px 0px 15px 0px; }
-    #my-story .second-section h2:before {
-      margin: 0; }
-  #my-story .second-section img {
+  .my-story-lead-from-self img {
     max-width: 350px; }
-#my-story .third-section {
+    @media only screen and (max-width: 768px) {
+      .my-story-lead-from-self img {
+        margin-bottom: 30px; } }
+.my-story-life-changing-experience {
   padding: 150px 0;
   background: #8fc4db;
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
@@ -5156,13 +5160,19 @@ a {
   position: relative;
   top: -139px;
   margin-bottom: -140px; }
-  #my-story .third-section h2 {
+  @media only screen and (max-width: 768px) {
+    .my-story-life-changing-experience {
+      clip-path: none;
+      top: 0px;
+      margin-bottom: 0px;
+      padding: 70px 0; } }
+  .my-story-life-changing-experience h2 {
     font-size: 30px;
     color: #155d7c;
     text-align: center; }
-  #my-story .third-section p {
+  .my-story-life-changing-experience p {
     color: #155d7c; }
-  #my-story .third-section .wrapper {
+  .my-story-life-changing-experience .wrapper {
     background: #ffffff;
     border-radius: 35px;
     box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.2);
@@ -5170,15 +5180,30 @@ a {
     height: 170px;
     display: grid;
     place-items: center; }
-    #my-story .third-section .wrapper img {
+    @media only screen and (max-width: 768px) {
+      .my-story-life-changing-experience .wrapper {
+        margin: 60px auto 30px auto;
+        width: 250px;
+        height: 250px; } }
+    .my-story-life-changing-experience .wrapper img {
       max-width: 150px; }
-  #my-story .third-section .meta-info h4 {
+  .my-story-life-changing-experience .meta-info h4 {
     color: #ffffff;
     font-size: 25px;
     margin: 0; }
-  #my-story .third-section .meta-info span {
+    @media only screen and (max-width: 768px) {
+      .my-story-life-changing-experience .meta-info h4 {
+        text-align: center; } }
+  .my-story-life-changing-experience .meta-info span {
     color: #ffffff;
-    font-size: 16px; }
+    font-size: 16px;
+    display: block; }
+    @media only screen and (max-width: 768px) {
+      .my-story-life-changing-experience .meta-info span {
+        text-align: center; } }
+  @media only screen and (max-width: 768px) {
+    .my-story-life-changing-experience .meta-info p {
+      text-align: center; } }
 
 #client-stories .first-section {
   background: url(./images/home/banner.jpg);
@@ -5191,7 +5216,7 @@ a {
   #client-stories .first-section h1 {
     font-size: 40px;
     text-transform: uppercase;
-    color: #ffb260;
+    color: #ffb362;
     height: 100%;
     position: absolute;
     bottom: -5px; }
@@ -5268,7 +5293,7 @@ a {
   #contact .first-section h1 {
     font-size: 40px;
     text-transform: uppercase;
-    color: #ffb260;
+    color: #ffb362;
     height: 100%;
     position: absolute;
     bottom: -5px; }

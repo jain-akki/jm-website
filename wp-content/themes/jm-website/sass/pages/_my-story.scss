@@ -1,24 +1,32 @@
-#my-story {
-	.first-section {
+.my-story {
+	&-heading {
 		background: url(./images/home/banner.jpg);
 		background-size: cover;
-		height: 22vh;
-		display: flex;
-		align-items: center;
-		color: $white;
+		height: 170px;
 		position: relative;
 
+		@include respond-to(mobile) {
+			height: 45vh;
+		}
+
 		h1 {
+			display: inline-block;
 			font-size: 40px;
 			text-transform: uppercase;
-			color: #ffb260;
-			height: 100%;
+			color: $light-orange;
+			margin: 0;
 			position: absolute;
-			bottom: -5px;
+			left: 150px;
+			bottom: 0px;
+			@include respond-to(mobile) {
+				left: 50%;
+				transform: translateX(-50%);
+				color: lighten($light-orange, 10%);
+			}
 		}
 	}
 
-	.second-section {
+	&-lead-from-self {
 		padding: 70px 0px 200px 0px;
 		background-image: url(./images/home/clouds.png);
 		background-size: cover;
@@ -26,22 +34,28 @@
 		clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
 		-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
 
+		@include respond-to(mobile) {
+			clip-path: none;
+			padding: 70px 0px;
+			text-align: center;
+		}
+
+
 		h2 {
 			font-size: 30px;
 			color: $hover-state;
 			margin: 0px 0px 15px 0px;
-
-			&:before {
-				margin: 0;
-			}
 		}
 
 		img {
 			max-width: 350px;
+			@include respond-to(mobile) {
+				margin-bottom: 30px;
+			}
 		}
 	}
 
-	.third-section {
+	&-life-changing-experience {
 		padding: 150px 0;
 		background: $light-blue;
 		clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
@@ -50,16 +64,24 @@
 		top: -139px;
 		margin-bottom: -140px;
 
+		@include respond-to(mobile) {
+			clip-path: none;
+			top: 0px;
+			margin-bottom: 0px;
+			padding: 70px 0;
+		}
+
 		h2 {
 			font-size: 30px;
 			color: #155d7c;
 			text-align: center;
 		}
-		p{
+
+		p {
 			color: #155d7c;
 		}
 
-		.wrapper{
+		.wrapper {
 			background: $white;
 			border-radius: 35px;
 			box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.2);
@@ -67,6 +89,12 @@
 			height: 170px;
 			display: grid;
 			place-items: center;
+
+			@include respond-to(mobile) {
+				margin: 60px auto 30px auto;
+				width: 250px;
+				height: 250px;
+			}
 
 			img {
 				max-width: 150px;
@@ -79,12 +107,28 @@
 				color: $white;
 				font-size: 25px;
 				margin: 0;
+
+				@include respond-to(mobile) {
+					text-align: center;
+				}
 			}
 
 			span {
 				color: $white;
 				font-size: 16px;
+				display: block;
+
+				@include respond-to(mobile) {
+					text-align: center;
+				}
 			}
+
+			p {
+				@include respond-to(mobile) {
+					text-align: center;
+				}
+			}
+
 		}
 
 	}

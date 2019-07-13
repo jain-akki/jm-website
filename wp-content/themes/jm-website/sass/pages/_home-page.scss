@@ -1,0 +1,169 @@
+#home {
+	.first-section {
+		background: url(./images/home/banner.jpg);
+		background-size: cover;
+		height: 90vh;
+		display: flex;
+		align-items: center;
+		color: #ffffff;
+		position: relative;
+
+
+		.image-wrapper {
+			position: absolute;
+			bottom: 0;
+			right: 50px;
+			width: 400px;
+			overflow: hidden;
+
+			img {
+				//position: absolute;
+			}
+		}
+
+		.arrow-down {
+			width: 50px;
+			height: 50px;
+			background: #fff;
+			border-radius: 50%;
+			display: grid;
+			place-items: center;
+			color: orange;
+			position: absolute;
+			bottom: 0;
+			left: 73px;
+			transform: translateY(50%);
+			box-shadow: 0px 5px 18px 0px rgba(197, 197, 197, 0.38);
+			cursor: pointer;
+
+			i {
+				-moz-animation: bounce 2s infinite;
+				-webkit-animation: bounce 2s infinite;
+				animation: bounce 2s infinite;
+			}
+		}
+	}
+
+	.second-section {
+		padding: 70px 0;
+
+		article {
+			h2 {
+				font-size: 30px;
+				color: #56565e;
+
+				span {
+					font-size: 50px;
+					color: #ff870d;
+					display: block;
+					text-transform: uppercase;
+				}
+			}
+
+			.primary-cta {
+				color: #fff;
+			}
+		}
+	}
+
+	.third-section {
+		padding: 70px 0;
+		background-image: url(./images/home/clouds.png);
+		background-size: cover;
+		background-position: bottom;
+		clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+
+		article {
+			h2 {
+				font-size: 30px;
+				color: #70b1cd;
+			}
+
+			.wrapper {
+				display: flex;
+				justify-content: space-between;
+
+				.item {
+					background: #fff;
+					border-radius: 35px;
+					box-shadow: 0px 6px 18px 0px rgba(188, 217, 231, 0.75);
+					width: 300px;
+					height: 300px;
+					display: grid;
+					place-items: center;
+
+					img {
+						max-width: 200px;
+					}
+
+					.meta-info {
+						text-align: center;
+
+						h4 {
+							font-size: 25px;
+							color: #56565e;
+							margin: 0;
+						}
+
+						p {
+							font-size: 14px;
+						}
+					}
+				}
+			}
+
+			.primary-cta {
+				background: #fff;
+				color: #56565e;
+				box-shadow: 0px 6px 18px 0px rgba(87, 123, 139, 0.38);
+				margin-left: unset;
+
+				&:before, &:after {
+					background: #e0eaee;
+				}
+			}
+		}
+	}
+
+	.fourth-section {
+		padding: 70px 0;
+		background: #8fc4db;
+		clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+		-webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+		position: relative;
+		top: -92px;
+		margin-bottom: -95px;
+
+		article {
+			text-align: center;
+
+			h2 {
+				font-size: 40px;
+				color: #fff;
+			}
+
+			.client-speak {
+				.glide__slide {
+					p {
+						font-family: $rufina;
+						color: #1f5c76;
+					}
+
+					span {
+						font-family: $roboto-slab;
+						font-size: 15px;
+						font-weight: 300;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+
+
+
+

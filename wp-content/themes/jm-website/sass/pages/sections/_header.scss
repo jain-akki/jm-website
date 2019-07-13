@@ -1,0 +1,52 @@
+.header {
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+
+	&-logo {
+		img{
+			width: 100%;
+			max-width: 80px;
+		}
+	}
+
+	&-navigation {
+		text-align: center;
+
+		.main-menu {
+			.menu-item {
+				a {
+					color: #fff;
+					@include font($rufina, 17px, normal);
+					padding: 5px 0px;
+					margin: 0px 20px;
+
+					&:hover {
+						color: #56565e;
+					}
+				}
+
+				&.current-menu-item {
+					a {
+						color: #56565e;
+						border-bottom: 1px solid #56565e;
+					}
+				}
+			}
+		}
+	}
+
+	&-social-links {
+		min-width: 100px;
+		display: flex;
+		justify-content: space-around;
+		a {
+			color: #fff;
+			font-size: 14px;
+
+			&:hover {
+				color: #56565e;
+			}
+		}
+	}
+}

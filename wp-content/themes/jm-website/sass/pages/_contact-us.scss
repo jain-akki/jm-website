@@ -1,30 +1,20 @@
-#contact {
-	.first-section {
-		background: url(./images/home/banner.jpg);
-		background-size: cover;
-		height: 22vh;
-		display: flex;
-		align-items: center;
-		color: $white;
-		position: relative;
-
-		h1 {
-			font-size: 40px;
-			text-transform: uppercase;
-			color: $light-orange;
-			height: 100%;
-			position: absolute;
-			bottom: -5px;
-		}
+.contact {
+	&-heading {
+		@extend %heading;
 	}
 
-	.second-section {
-		padding: 0px 0px 250px 0px;
+	&-form {
+		padding: 70px 0px 250px 0px;
 		background-image: url(./images/home/clouds.png);
 		background-size: cover;
 		background-position: bottom;
 		clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
 		-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+
+		@include respond-to(mobile){
+			clip-path: none;
+			padding: 70px 0px;
+		}
 
 		h2 {
 			font-size: 30px;
@@ -71,9 +61,7 @@
 	}
 }
 
-
-.fourth-section {
-	.footer {
+.footer {
 		&-top {
 			padding: 70px 0;
 			background: $light-blue;
@@ -82,6 +70,11 @@
 			position: relative;
 			top: -92px;
 			margin-bottom: -95px;
+
+			@include respond-to(mobile){
+				clip-path: none;
+				top: 0px;
+				margin-bottom: 0px;
+			}
 		}
 	}
-}

@@ -4897,15 +4897,15 @@ a {
   .quotes .glide__bullet.glide__bullet--active, .client-speak .glide__bullet.glide__bullet--active {
     opacity: 1; }
 
-.my-story-heading, .client-stories-heading {
+.my-story-heading, .client-stories-heading, .contact-heading {
   background: url(./images/home/banner.jpg);
   background-size: cover;
   height: 170px;
   position: relative; }
   @media only screen and (max-width: 768px) {
-    .my-story-heading, .client-stories-heading {
+    .my-story-heading, .client-stories-heading, .contact-heading {
       height: 45vh; } }
-  .my-story-heading h1, .client-stories-heading h1 {
+  .my-story-heading h1, .client-stories-heading h1, .contact-heading h1 {
     display: inline-block;
     font-size: 40px;
     text-transform: uppercase;
@@ -4916,7 +4916,7 @@ a {
     left: 150px;
     bottom: 0px; }
     @media only screen and (max-width: 768px) {
-      .my-story-heading h1, .client-stories-heading h1 {
+      .my-story-heading h1, .client-stories-heading h1, .contact-heading h1 {
         left: 50%;
         transform: translateX(-50%);
         color: #ffcc95; } }
@@ -5288,40 +5288,29 @@ a {
       top: 0px;
       margin-bottom: 0px; } }
 
-#contact .first-section {
-  background: url(./images/home/banner.jpg);
-  background-size: cover;
-  height: 22vh;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-  position: relative; }
-  #contact .first-section h1 {
-    font-size: 40px;
-    text-transform: uppercase;
-    color: #ffb362;
-    height: 100%;
-    position: absolute;
-    bottom: -5px; }
-#contact .second-section {
-  padding: 0px 0px 250px 0px;
+.contact-form {
+  padding: 70px 0px 250px 0px;
   background-image: url(./images/home/clouds.png);
   background-size: cover;
   background-position: bottom;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%); }
-  #contact .second-section h2 {
+  @media only screen and (max-width: 768px) {
+    .contact-form {
+      clip-path: none;
+      padding: 70px 0px; } }
+  .contact-form h2 {
     font-size: 30px;
     color: #56565e;
     text-align: center; }
-  #contact .second-section form label {
+  .contact-form form label {
     display: block;
     width: 100%; }
-    #contact .second-section form label input, #contact .second-section form label textarea {
+    .contact-form form label input, .contact-form form label textarea {
       display: block;
       width: 100%;
       border: 1px solid #00b6ff; }
-  #contact .second-section form input[type=submit] {
+  .contact-form form input[type=submit] {
     background: #ffffff;
     color: #56565e;
     box-shadow: 0px 6px 18px 0px rgba(87, 123, 139, 0.38);
@@ -5333,14 +5322,14 @@ a {
     font-family: "Roboto Slab", serif;
     color: #666666;
     font-size: 16px; }
-  #contact .second-section .email-id {
+  .contact-form .email-id {
     font-size: 25px;
     color: #2d5465;
     font-family: "Rufina", serif;
     display: block;
     text-align: center; }
 
-.fourth-section .footer-top {
+.footer-top {
   padding: 70px 0;
   background: #8fc4db;
   clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
@@ -5348,5 +5337,10 @@ a {
   position: relative;
   top: -92px;
   margin-bottom: -95px; }
+  @media only screen and (max-width: 768px) {
+    .footer-top {
+      clip-path: none;
+      top: 0px;
+      margin-bottom: 0px; } }
 
 /*# sourceMappingURL=style.css.map */

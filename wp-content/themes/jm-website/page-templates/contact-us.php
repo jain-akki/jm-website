@@ -5,15 +5,11 @@
 ?>
 
 <?php get_header(); ?>
-<main id="contact">
-	<section class="first-section">
-		<div class="container">
-			<div class="row col-12">
-				<h1>Contact</h1>
-			</div>
-		</div>
+<main class="contact">
+	<section class="contact-heading">
+		<h1>Contact</h1>
 	</section>
-	<section class="second-section">
+	<section class="contact-form">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-8 m-auto">
@@ -34,6 +30,4 @@
 		</div>
 	</section>
 </main>
-<section class="fourth-section">
-	<?php get_footer(); ?>
-</section>
+<?php get_footer(); ?>

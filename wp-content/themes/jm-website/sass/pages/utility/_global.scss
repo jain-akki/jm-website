@@ -91,3 +91,33 @@ a {
 		}
 	}
 }
+
+// Shared Snippets
+
+%heading {
+	background: url(./images/home/banner.jpg);
+	background-size: cover;
+	height: 170px;
+	position: relative;
+
+	@include respond-to(mobile) {
+		height: 45vh;
+	}
+
+	h1 {
+		display: inline-block;
+		font-size: 40px;
+		text-transform: uppercase;
+		color: $light-orange;
+		margin: 0;
+		position: absolute;
+		width: max-content;
+		left: 150px;
+		bottom: 0px;
+		@include respond-to(mobile) {
+			left: 50%;
+			transform: translateX(-50%);
+			color: lighten($light-orange, 10%);
+		}
+	}
+}

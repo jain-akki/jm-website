@@ -5,17 +5,11 @@
 ?>
 
 <?php get_header(); ?>
-<main id="client-stories">
-	<section class="first-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<h1>Client Stories</h1>
-				</div>
-			</div>
-		</div>
+<main class="client-stories">
+	<section class="client-stories-heading">
+		<h1>Client Stories</h1>
 	</section>
-	<section class="second-section">
+	<section class="client-stories-articles">
 		<div class="container profile">
 			<div class="row">
 				<div class="col-12 col-md-9 profile-left">
@@ -35,7 +29,7 @@
 						<img src="<?php echo get_template_directory_uri() . '/images/client-stories/jaya.jpg'; ?>"
 						     alt="Jaya's Picture">
 						<p class="mt-3">Lets make today happier and tomorrow brighter</p>
-						<img class="d-block ml-auto"
+						<img class="d-md-block ml-md-auto"
 						     src="<?php echo get_template_directory_uri() . '/images/client-stories/jaya-sign.png'; ?>"
 						     alt="Jaya's Signature">
 					</article>
@@ -66,6 +60,5 @@
 		</div>
 	</section>
 </main>
-<section class="fourth-section">
-	<?php get_footer(); ?>
-</section>
+<?php get_footer(); ?>
+

@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28ec3206-1cdd-40b4-88fa-c6b036e73ff1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/my-story.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/my-story.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/elements/_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/elements/_elements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/client-stories.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/client-stories.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_client-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_client-stories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_contact-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_contact-us.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_my-story.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_my-story.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/style-editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/style-editor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/style-editor.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/style-editor.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/style-editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/style-editor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/style.css.map" afterDir="false" />
     </list>
@@ -29,6 +24,18 @@
     <splitter split-orientation="vertical" split-proportion="0.53868616">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_global.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="231">
+                  <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#1259#1758#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/home.php">
               <provider selected="true" editor-type-id="text-editor">
@@ -53,13 +60,25 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/my-story.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+                <state relative-caret-position="55">
+                  <caret line="71" column="28" lean-forward="true" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
                   <folding>
                     <element signature="n#section#1;n#main#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/client-stories.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="174">
+                  <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+                  <folding>
+                    <element signature="n#section#0;n#main#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -78,13 +97,23 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_my-story.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="14">
-                  <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_client-stories.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
                   <folding>
-                    <element signature="e#28#336#0" />
+                    <element signature="e#34#348#0" />
+                    <element signature="e#649#1121#0" />
                   </folding>
                 </state>
               </provider>
@@ -132,21 +161,21 @@
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/css/hover.min.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/contact-us.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/home.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/client-stories.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_home-page.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_global.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_animations.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_media-query.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_mixins.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_contact-us.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_client-stories.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/style-editor.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/sass/elements/_elements.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_variables.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/my-story.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_my-story.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_global.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/client-stories.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_client-stories.scss" />
       </list>
     </option>
   </component>
@@ -293,13 +322,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59166000" />
+    <option name="totallyTimeSpent" value="60071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14862682" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14862682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -319,6 +348,27 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14862682" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924962" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29781023" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -440,20 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_client-stories.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/client-stories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_animations.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -490,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -518,22 +547,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_my-story.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+          <folding>
+            <element signature="e#1259#1758#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/my-story.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+        <state relative-caret-position="55">
+          <caret line="71" column="28" lean-forward="true" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
           <folding>
             <element signature="n#section#1;n#main#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_my-story.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/page-templates/client-stories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+        <state relative-caret-position="174">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
-            <element signature="e#28#336#0" />
+            <element signature="n#section#0;n#main#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_client-stories.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+          <folding>
+            <element signature="e#34#348#0" />
+            <element signature="e#649#1121#0" />
           </folding>
         </state>
       </provider>

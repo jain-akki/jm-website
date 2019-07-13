@@ -4897,6 +4897,30 @@ a {
   .quotes .glide__bullet.glide__bullet--active, .client-speak .glide__bullet.glide__bullet--active {
     opacity: 1; }
 
+.my-story-heading, .client-stories-heading {
+  background: url(./images/home/banner.jpg);
+  background-size: cover;
+  height: 170px;
+  position: relative; }
+  @media only screen and (max-width: 768px) {
+    .my-story-heading, .client-stories-heading {
+      height: 45vh; } }
+  .my-story-heading h1, .client-stories-heading h1 {
+    display: inline-block;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #ffb362;
+    margin: 0;
+    position: absolute;
+    width: max-content;
+    left: 150px;
+    bottom: 0px; }
+    @media only screen and (max-width: 768px) {
+      .my-story-heading h1, .client-stories-heading h1 {
+        left: 50%;
+        transform: translateX(-50%);
+        color: #ffcc95; } }
+
 .header {
   position: absolute;
   width: 100%;
@@ -5109,28 +5133,6 @@ a {
       font-weight: 300;
       color: #ffffff; }
 
-.my-story-heading {
-  background: url(./images/home/banner.jpg);
-  background-size: cover;
-  height: 170px;
-  position: relative; }
-  @media only screen and (max-width: 768px) {
-    .my-story-heading {
-      height: 45vh; } }
-  .my-story-heading h1 {
-    display: inline-block;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: #ffb362;
-    margin: 0;
-    position: absolute;
-    left: 150px;
-    bottom: 0px; }
-    @media only screen and (max-width: 768px) {
-      .my-story-heading h1 {
-        left: 50%;
-        transform: translateX(-50%);
-        color: #ffcc95; } }
 .my-story-lead-from-self {
   padding: 70px 0px 200px 0px;
   background-image: url(./images/home/clouds.png);
@@ -5205,58 +5207,57 @@ a {
     .my-story-life-changing-experience .meta-info p {
       text-align: center; } }
 
-#client-stories .first-section {
-  background: url(./images/home/banner.jpg);
-  background-size: cover;
-  height: 22vh;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-  position: relative; }
-  #client-stories .first-section h1 {
-    font-size: 40px;
-    text-transform: uppercase;
-    color: #ffb362;
-    height: 100%;
-    position: absolute;
-    bottom: -5px; }
-#client-stories .second-section {
+.client-stories-articles {
   padding: 100px 0px 250px 0px;
   background-image: url(./images/home/clouds.png);
   background-size: cover;
   background-position: bottom;
   clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%); }
-  #client-stories .second-section .profile-left article:not(:last-child) {
+  @media only screen and (max-width: 768px) {
+    .client-stories-articles {
+      clip-path: none;
+      padding: 70px 0px; } }
+  .client-stories-articles .profile-left article:not(:last-child) {
     border-bottom: 1px solid #909bb0;
     padding-bottom: 30px;
     margin-bottom: 30px; }
-  #client-stories .second-section .profile-left article h3 {
+  .client-stories-articles .profile-left article h3 {
     font-size: 30px;
     color: #56565e; }
-  #client-stories .second-section .profile-left article p {
+  .client-stories-articles .profile-left article p {
     color: #666666; }
-  #client-stories .second-section .profile-left article .name {
+  .client-stories-articles .profile-left article .name {
     font-family: "Rufina", serif;
     display: block;
     font-size: 18px;
     color: #ff870a;
     margin-top: 20px; }
-  #client-stories .second-section .profile-left article .designation {
+  .client-stories-articles .profile-left article .designation {
     font-size: 14px;
     color: #5496b3; }
-  #client-stories .second-section .profile-right-first h4 {
+  @media only screen and (max-width: 768px) {
+    .client-stories-articles .profile-right-first {
+      text-align: center;
+      margin: 100px 0px 10px 0px; } }
+  .client-stories-articles .profile-right-first h4 {
     color: #ff870a; }
-  #client-stories .second-section .profile-right-first p {
+  .client-stories-articles .profile-right-first p {
     font-size: 14px; }
-  #client-stories .second-section .profile-right-second {
+  .client-stories-articles .profile-right-second {
     border-top: 1px solid #909bb0;
     margin-top: 20px; }
-    #client-stories .second-section .profile-right-second h5 {
+    .client-stories-articles .profile-right-second h5 {
       color: #ff870a; }
-    #client-stories .second-section .profile-right-second .flex-container {
+      @media only screen and (max-width: 768px) {
+        .client-stories-articles .profile-right-second h5 {
+          text-align: center; } }
+    .client-stories-articles .profile-right-second .flex-container {
       display: flex; }
-      #client-stories .second-section .profile-right-second .flex-container .item {
+      @media only screen and (max-width: 768px) {
+        .client-stories-articles .profile-right-second .flex-container {
+          justify-content: center; } }
+      .client-stories-articles .profile-right-second .flex-container .item {
         border: 1px solid #909bb0;
         width: 40px;
         height: 40px;
@@ -5264,16 +5265,16 @@ a {
         display: grid;
         place-items: center;
         cursor: pointer; }
-        #client-stories .second-section .profile-right-second .flex-container .item a {
+        .client-stories-articles .profile-right-second .flex-container .item a {
           font-size: 12px;
           color: #909bb0; }
-        #client-stories .second-section .profile-right-second .flex-container .item:hover {
+        .client-stories-articles .profile-right-second .flex-container .item:hover {
           background: #ff870a;
           border: none; }
-          #client-stories .second-section .profile-right-second .flex-container .item:hover a {
+          .client-stories-articles .profile-right-second .flex-container .item:hover a {
             color: #ffffff; }
 
-.fourth-section .footer-top {
+.footer-top {
   padding: 70px 0;
   background: #8fc4db;
   clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
@@ -5281,6 +5282,11 @@ a {
   position: relative;
   top: -92px;
   margin-bottom: -95px; }
+  @media only screen and (max-width: 768px) {
+    .footer-top {
+      clip-path: none;
+      top: 0px;
+      margin-bottom: 0px; } }
 
 #contact .first-section {
   background: url(./images/home/banner.jpg);

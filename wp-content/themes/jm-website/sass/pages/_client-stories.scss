@@ -5,7 +5,7 @@
 		height: 22vh;
 		display: flex;
 		align-items: center;
-		color: #ffffff;
+		color: $white;
 		position: relative;
 
 		h1 {
@@ -99,7 +99,7 @@
 								border: none;
 
 								a {
-									color: #fff;
+									color: $white;
 								}
 							}
 						}

@@ -5,42 +5,42 @@
 ?>
 
 <?php get_header(); ?>
-<main id="home">
-	<section class="first-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-6">
-					<div class="quotes">
-						<div class="glide__track" data-glide-el="track">
-							<ul class="glide__slides">
-								<li class="glide__slide">
-									<p>Attain your potential by traversing a path to self.</p>
-								</li>
-								<li class="glide__slide">
-									<p>Attain your potential by traversing a path to self.</p>
-								</li>
-								<li class="glide__slide">
-									<p>Attain your potential by traversing a path to self.</p>
-								</li>
-							</ul>
-						</div>
-						<div class="glide__bullets" data-glide-el="controls[nav]">
-							<button class="glide__bullet" data-glide-dir="=0"></button>
-							<button class="glide__bullet" data-glide-dir="=1"></button>
-							<button class="glide__bullet" data-glide-dir="=2"></button>
+<main class="home">
+	<section class="home-banner">
+		<div class="container quotes-wrapper">
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<div class="quotes">
+							<div class="glide__track" data-glide-el="track">
+								<ul class="glide__slides">
+									<li class="glide__slide">
+										<p>Attain your potential by traversing a path to self.</p>
+									</li>
+									<li class="glide__slide">
+										<p>Attain your potential by traversing a path to self.</p>
+									</li>
+									<li class="glide__slide">
+										<p>Attain your potential by traversing a path to self.</p>
+									</li>
+								</ul>
+							</div>
+							<div class="glide__bullets" data-glide-el="controls[nav]">
+								<button class="glide__bullet" data-glide-dir="=0"></button>
+								<button class="glide__bullet" data-glide-dir="=1"></button>
+								<button class="glide__bullet" data-glide-dir="=2"></button>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 		<div class="image-wrapper">
-			<img class="" src="<?php echo get_template_directory_uri() . '/images/home/jaya.png'; ?>" alt="">
+			<img class="image" src="<?php echo get_template_directory_uri() . '/images/home/jaya.png'; ?>" alt="">
 		</div>
 		<div class="arrow-down" onclick="window.scrollBy(0, window.innerHeight);">
 			<i class="fal fa-long-arrow-down"></i>
 		</div>
 	</section>
-	<section class="second-section">
+	<section class="home-lead-from-self">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -71,7 +71,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="third-section">
+	<section class="home-life-changing-experience">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -107,7 +107,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="fourth-section py-5">
+	<section class="home-client-speak py-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-8 m-auto">

@@ -57,13 +57,13 @@
 		<div class="header-social-links">
 			<?php $q = new WP_Query( 'pagename=home' ); ?>
 			<?php while ( $q->have_posts() ): $q->the_post(); ?>
-				<a href="<?php echo get_field( 'twitter_link' ); ?>" target="_blank">
+				<a class="link" href="<?php echo get_field( 'twitter_link' ); ?>" target="_blank">
 					<i class="fab fa-twitter"></i>
 				</a>
-				<a href="<?php echo get_field( 'facebook_link' ); ?>" target="_blank">
+				<a class="link" href="<?php echo get_field( 'facebook_link' ); ?>" target="_blank">
 					<i class="fab fa-facebook-f"></i>
 				</a>
-				<a href="<?php echo get_field( 'linkedin_link' ); ?>" target="_blank">
+				<a class="link" href="<?php echo get_field( 'linkedin_link' ); ?>" target="_blank">
 					<i class="fab fa-linkedin-in"></i>
 				</a>
 			<?php endwhile; ?>

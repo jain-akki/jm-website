@@ -27,7 +27,7 @@ a {
 
 .primary-cta {
 	background: #ff870d;
-	color: #fff;
+	color: $white;
 	width: 200px;
 	height: 50px;
 	display: grid;
@@ -70,7 +70,7 @@ a {
 	.glide__slide {
 		p {
 			font-size: 34px;
-			color: #fff;
+			color: $white;
 			line-height: 56px;
 		}
 	}
@@ -83,7 +83,7 @@ a {
 		width: 6px;
 		height: 6px;
 		padding: 0px;
-		background: #fff;
+		background: $white;
 		opacity: 0.5;
 
 		&.glide__bullet--active {

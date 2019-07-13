@@ -33,14 +33,14 @@
 					margin: 0px 20px;
 
 					&:hover {
-						color: #56565e;
+						color: $hover-state;
 					}
 				}
 
 				&.current-menu-item {
 					a {
-						color: #56565e;
-						border-bottom: 1px solid #56565e;
+						color: $hover-state;
+						border-bottom: 1px solid $hover-state;
 					}
 				}
 			}
@@ -57,7 +57,7 @@
 			font-size: 14px;
 
 			&:hover {
-				color: #56565e;
+				color: $hover-state;
 			}
 		}
 	}

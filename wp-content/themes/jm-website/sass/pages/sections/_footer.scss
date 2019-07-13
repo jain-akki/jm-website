@@ -1,69 +1,60 @@
 .footer {
 
-	.first-section {
-		background: #8fc4db;
+	&-top {
+		display: grid;
+		place-items: center;
+		background: $light-blue;
 
-		.wrapper {
-			display: grid;
-			place-items: center;
+		.navigation {
 
-			.logo {
+			.main-menu {
+				.menu-item {
+					a {
+						color: $white;
+						@include font($rufina, 17px, normal);
+						margin: 0px 20px;
 
-			}
-
-			.navigation {
-
-				.main-menu {
-					.menu-item {
-						a {
-							color: #fff;
-							@include font($rufina, 17px, normal);
-							margin: 0px 20px;
-
-							&:hover {
-								color: #56565e;
-							}
+						&:hover {
+							color: $hover-state;
 						}
+					}
 
-						&.current-menu-item {
-							a {
-								color: #56565e;
-							}
+					&.current-menu-item {
+						a {
+							color: $hover-state;
 						}
 					}
 				}
 			}
 		}
-
 	}
 
-	.second-section {
-		background: #fff;
+	&-bottom {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background: $white;
+		padding: 10px 20px;
 
-		.wrapper {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-
-			.copyright {
-				height: 100%;
-				p{
-					font-size: 14px;
-				}
-			}
-
-			.social-links {
-				a {
-					color: #ffb362;
-					font-size: 14px;
-					margin-right: 5px;
-
-					&:hover {
-						color: #56565e;
-					}
-				}
+		.copyright {
+			p {
+				font-size: 14px;
 			}
 		}
 
+		.social-links {
+			a {
+				color: #ffb362;
+				font-size: 14px;
+
+				&:not(:last-child) {
+					margin-right: 15px;
+				}
+
+				&:hover {
+					color: $hover-state;
+				}
+			}
+		}
 	}
 }

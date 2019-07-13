@@ -79,54 +79,13 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "sass/blocks/blocks";
 /* Media */
 @import "sass/media/media";
+
+
 //Pages
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Rufina:400,700&display=swap');
-
-$tablet: 769px !default;
-$desktop: 1000px !default;
-$widescreen: 1192px !default;
-$fullhd: 1384px !default;
-
-@mixin respond-to($media) {
-	@if $media == mobile {
-		@media only screen and (max-width: $tablet - 1px) {
-			@content;
-		}
-	} @else if $media == tablet {
-		@media only screen and (min-width: $tablet) {
-			@content;
-		}
-	} @else if $media == tablet-only {
-		@media only screen and (min-width: $tablet + 1px) and (max-width: $desktop - 1px) {
-			@content;
-		}
-	} @else if $media == desktop {
-		@media only screen and (min-width: $desktop) {
-			@content;
-		}
-	} @else if $media == desktop-only {
-		@media only screen and (min-width: $desktop + 1px) and (max-width: $widescreen - 1px) {
-			@content;
-		}
-	}
-}
-
-$rufina: 'Rufina', serif;
-$roboto-slab: 'Roboto Slab', serif;
-
-
-// Font Mixin
-@mixin font($family, $size, $weight) {
-	font: {
-		family: $family;
-		size: $size;
-		weight: $weight;
-	}
-}
-
-p {
-	margin: 0;
-}
+@import "sass/pages/utility/variables";
+@import "sass/pages/utility/mixins";
+@import "sass/pages/utility/animations";
+@import "sass/pages/utility/global";
 
 @import "sass/pages/sections/header";
 @import "sass/pages/sections/footer";
@@ -136,111 +95,5 @@ p {
 @import "sass/pages/client-stories";
 @import "sass/pages/contact-us";
 
-// Global Styles
-
-#jm-website {
-	position: relative;
-}
 
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: $rufina;
-
-	&:before {
-		background: transparent!important;
-	}
-}
-
-p {
-	font-family: $roboto-slab;
-	font-weight: 300;
-	color: #666666;
-	font-size: 16px;
-}
-
-a{
-	cursor: pointer;
-}
-
-
-
-.primary-cta {
-	background: #ff870d;
-	color: #fff;
-	width: 200px;
-	height: 50px;
-	display: grid;
-	place-items: center;
-	margin-left: auto;
-	border-radius: 50px;
-	font-family: $rufina;
-	box-shadow: 0px 6px 18px 0px rgba(255, 135, 10, 0.38);
-	overflow: hidden;
-	position: relative;
-	font-size: 16px;
-
-	&:hover, &:visited {
-		color: initial;
-	}
-
-	&:before {
-		content: '';
-		background: #ff9c34;
-		width: 10px;
-		height: 200px;
-		position: absolute;
-		right: 20px;
-		transform: rotate(-20deg);
-	}
-
-	&:after {
-		content: '';
-		background: #ff9c34;
-		width: 10px;
-		height: 100px;
-		position: absolute;
-		right: 3px;
-		transform: rotate(-20deg);
-	}
-}
-
-.quotes, .client-speak {
-
-	.glide__slide{
-		p{
-			font-size: 34px;
-			color: #fff;
-			line-height: 56px;
-		}
-	}
-
-	.glide__bullets {
-		line-height: 0;
-	}
-
-	.glide__bullet {
-		width: 6px;
-		height: 6px;
-		padding: 0px;
-		background: #fff;
-		opacity: 0.5;
-
-		&.glide__bullet--active {
-			opacity: 1;
-		}
-	}
-}
-
-
-// Animations
-@keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {
-		transform: translateY(0);
-	}
-	40% {
-		transform: translateY(-10px);
-	}
-	60% {
-		transform: translateY(-10px);
-	}
-}

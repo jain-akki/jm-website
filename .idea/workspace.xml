@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="28ec3206-1cdd-40b4-88fa-c6b036e73ff1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_home-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_home-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/sections/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/sections/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/sections/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/sections/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/site/primary/_posts-and-pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/sass/site/primary/_posts-and-pages.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/jm-website/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/jm-website/style.css.map" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -36,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_global.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="106" column="6" lean-forward="true" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
+              <caret line="106" column="6" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -44,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_home-page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+            <state relative-caret-position="248">
+              <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
               <folding>
                 <element signature="e#1764#2555#0" />
               </folding>
@@ -74,6 +69,7 @@
       <find>post-section-dash</find>
       <find>clip-path: none</find>
       <find>clip-path: polygon</find>
+      <find>quotes</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -268,7 +264,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62931000" />
+    <option name="totallyTimeSpent" value="63199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -526,21 +522,21 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/utility/_global.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="106" column="6" lean-forward="true" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
+          <caret line="106" column="6" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/jm-website/sass/pages/_home-page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+        <state relative-caret-position="248">
+          <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
           <folding>
             <element signature="e#1764#2555#0" />
           </folding>

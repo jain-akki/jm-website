@@ -5025,7 +5025,7 @@ a {
   position: relative; }
   @media only screen and (max-width: 768px) {
     .home-banner .quotes-wrapper {
-      margin-top: 180px; }
+      margin-top: 250px; }
       .home-banner .quotes-wrapper .glide__slide {
         text-align: center; }
       .home-banner .quotes-wrapper .glide__bullets {
@@ -5057,6 +5057,9 @@ a {
     transform: translateY(50%);
     box-shadow: 0px 5px 18px 0px rgba(197, 197, 197, 0.38);
     cursor: pointer; }
+    @media only screen and (max-width: 768px) {
+      .home-banner .arrow-down {
+        left: 30px; } }
     .home-banner .arrow-down i {
       -moz-animation: bounce 2s infinite;
       -webkit-animation: bounce 2s infinite;

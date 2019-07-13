@@ -14,7 +14,7 @@
 			<div class="row">
 				<div class="col-12 col-md-8 m-auto">
 					<h2>
-						Quick-start your journey to self-rejuvenation,
+						Quick-start your journey to self-rejuvenation. <br class="d-none d-md-block" />
 						Reach out to Jaya Mehrotra by filling out the form
 					</h2>
 					<div class="col-md-9 m-auto">

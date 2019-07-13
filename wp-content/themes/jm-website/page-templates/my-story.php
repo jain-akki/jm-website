@@ -26,14 +26,14 @@
 						<br>
 						I saw subordinates, contemporaries and superiors alike struggling with the ‘treadmill syndrome’, running
 						frantically but getting nowhere, and that led me to my ardour - Coaching. Although banking for me was
-						accomplishment and excellence, influencing people in an inclusive environment was my passion. In 2011, at
+						accomplishment and excellence, influencing people in an inclusive environment was my passion. In 2014, at
 						the peak of my career, I decided to graduate as a certified coach fast followed by programs in facilitation
 						and self leadership. Now I catalyse individuals in achieving an attuned and steady professional and personal
 						life.
 					</p>
 				</div>
 				<div class="col-12 col-md-5 text-center order-first order-md-last">
-					<img src="<?php echo get_template_directory_uri() . '/images/about/jaya.jpg'; ?>" alt="">
+					<img src="<?php echo get_template_directory_uri() . '/images/about/jaya-new.jpeg'; ?>" alt="">
 				</div>
 			</div>
 		</div>

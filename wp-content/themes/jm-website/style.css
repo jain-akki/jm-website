@@ -4904,7 +4904,7 @@ a {
   position: relative; }
   @media only screen and (max-width: 768px) {
     .my-story-heading, .client-stories-heading, .contact-heading {
-      height: 45vh; } }
+      height: 350px; } }
   .my-story-heading h1, .client-stories-heading h1, .contact-heading h1 {
     display: inline-block;
     font-size: 40px;
@@ -4940,6 +4940,13 @@ a {
     max-width: 80px; }
   .header-navigation {
     text-align: center; }
+    @media only screen and (max-width: 768px) {
+      .header-navigation .main-menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; }
+        .header-navigation .main-menu .menu-item {
+          padding: 10px 15px; } }
     .header-navigation .main-menu .menu-item a {
       color: #ffffff;
       font-family: "Rufina", serif;
@@ -4958,7 +4965,6 @@ a {
     justify-content: space-around; }
     @media only screen and (max-width: 768px) {
       .header-social-links {
-        padding: 20px 0px;
         min-width: 200px; } }
     .header-social-links .link {
       color: #ffffff;
@@ -4970,6 +4976,13 @@ a {
   display: grid;
   place-items: center;
   background: #8fc4db; }
+  @media only screen and (max-width: 768px) {
+    .footer-top .navigation .main-menu {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around; }
+      .footer-top .navigation .main-menu .menu-item {
+        padding: 10px 15px; } }
   .footer-top .navigation .main-menu .menu-item a {
     color: #ffffff;
     font-family: "Rufina", serif;
@@ -4986,8 +4999,14 @@ a {
   align-items: center;
   background: #ffffff;
   padding: 10px 20px; }
+  @media only screen and (max-width: 768px) {
+    .footer-bottom {
+      flex-direction: column-reverse; } }
   .footer-bottom .copyright p {
     font-size: 14px; }
+    @media only screen and (max-width: 768px) {
+      .footer-bottom .copyright p {
+        text-align: center; } }
   .footer-bottom .social-links a {
     color: #ffb362;
     font-size: 14px; }
@@ -5054,6 +5073,9 @@ a {
       text-transform: uppercase; }
   .home-lead-from-self article .primary-cta {
     color: #ffffff; }
+    @media only screen and (max-width: 768px) {
+      .home-lead-from-self article .primary-cta {
+        margin: 0px auto; } }
 .home-life-changing-experience {
   padding: 70px 0;
   background-image: url(./images/home/clouds.png);
@@ -5104,6 +5126,9 @@ a {
     color: #56565e;
     box-shadow: 0px 6px 18px 0px rgba(87, 123, 139, 0.38);
     margin-left: unset; }
+    @media only screen and (max-width: 768px) {
+      .home-life-changing-experience article .primary-cta {
+        margin: 0px auto; } }
     .home-life-changing-experience article .primary-cta:before, .home-life-changing-experience article .primary-cta:after {
       background: #e0eaee; }
 .home-client-speak {

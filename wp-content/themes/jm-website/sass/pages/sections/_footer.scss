@@ -7,6 +7,18 @@
 
 		.navigation {
 
+			@include respond-to(mobile) {
+				.main-menu{
+					display: flex;
+					flex-flow: row wrap;
+					justify-content: space-around;
+
+					.menu-item{
+						padding: 10px 15px;
+					}
+				}
+			}
+
 			.main-menu {
 				.menu-item {
 					a {
@@ -36,9 +48,16 @@
 		background: $white;
 		padding: 10px 20px;
 
+		@include respond-to(mobile){
+			flex-direction: column-reverse;
+		}
+
 		.copyright {
 			p {
 				font-size: 14px;
+				@include respond-to(mobile){
+					text-align: center;
+				}
 			}
 		}
 

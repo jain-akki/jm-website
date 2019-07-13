@@ -24,6 +24,18 @@
 	&-navigation {
 		text-align: center;
 
+		@include respond-to(mobile) {
+			.main-menu{
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+
+				.menu-item{
+					padding: 10px 15px;
+				}
+			}
+		}
+
 		.main-menu {
 			.menu-item {
 				a {
@@ -53,7 +65,6 @@
 		justify-content: space-around;
 
 		@include respond-to(mobile) {
-			padding: 20px 0px;
 			min-width: 200px;
 		}
 

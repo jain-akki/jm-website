@@ -29,6 +29,11 @@
 			right: 20px;
 			top: 30px;
 			z-index: 2;
+
+			&.open{
+				position: fixed;
+			}
+
 			.line {
 				width: 25px;
 				height: 2px;

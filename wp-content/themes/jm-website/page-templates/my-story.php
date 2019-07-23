@@ -38,7 +38,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="my-story-life-changing-experience">
+	<section id="life-changing-experience" class="my-story-life-changing-experience">
 		<div class="container">
 
 			<div class="row pb-3">
@@ -116,3 +116,14 @@
 	</section>
 </main>
 <?php get_footer(); ?>
+
+<script>
+	// Code to Scroll down to Life Changing Experience Section
+	const link = window.location.href;
+
+	if (link.indexOf('#life-changing-experience') !== -1) {
+		$('html, body').animate({
+			scrollTop: $('#life-changing-experience .container').offset().top
+		}, 1000);
+	}
+</script>

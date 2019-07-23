@@ -97,7 +97,7 @@
 								</div>
 							</div>
 						</div>
-						<a href="<?php echo get_page_link(9)?>" class="primary-cta">Know More</a>
+						<a href="<?php echo get_page_link(9)?>#life-changing-experience" class="primary-cta">Know More</a>
 					</article>
 				</div>
 			</div>

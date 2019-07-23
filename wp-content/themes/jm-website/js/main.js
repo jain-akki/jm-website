@@ -22,4 +22,5 @@ const headerNavigation = document.querySelector(".header-navigation");
 
 hamburger.addEventListener("click", () => {
 	headerNavigation.classList.toggle("open");
+	hamburger.classList.toggle("open");
 });

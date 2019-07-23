@@ -39,6 +39,11 @@
 				<img class="image" src="<?php echo get_template_directory_uri() . '/images/logo.png'; ?>" alt="">
 			</a>
 		</div>
+		<div class="hamburger">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
 		<div class="header-navigation">
 			<?php if ( has_nav_menu( 'menu-1' ) ) : ?>
 				<nav id="site-navigation" class="main-navigation"

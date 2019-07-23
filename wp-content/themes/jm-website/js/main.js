@@ -1,5 +1,4 @@
-
-
+// Homepage banner quote slider
 new Glide('.quotes', {
 	type: 'carousel',
 	startAt: 0,
@@ -8,7 +7,7 @@ new Glide('.quotes', {
 	autoplay: 2000
 }).mount();
 
-
+// Homepage Client Speak slider
 new Glide('.client-speak', {
 	type: 'carousel',
 	startAt: 0,
@@ -17,4 +16,10 @@ new Glide('.client-speak', {
 	autoplay: 2000
 }).mount();
 
+// NavBar Toggle on Mobile
+const hamburger = document.querySelector(".hamburger");
+const headerNavigation = document.querySelector(".header-navigation");
 
+hamburger.addEventListener("click", () => {
+	headerNavigation.classList.toggle("open");
+});

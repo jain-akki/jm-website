@@ -53,7 +53,7 @@
 			box-shadow: 0px 5px 18px 0px rgba(197, 197, 197, 0.38);
 			cursor: pointer;
 
-			@include respond-to(mobile){
+			@include respond-to(mobile) {
 				left: 30px;
 			}
 
@@ -212,6 +212,15 @@
 		}
 	}
 }
+
+.footer {
+	&-top {
+		@include respond-to(mobile) {
+			padding: 0;
+		}
+	}
+}
+
 
 
 

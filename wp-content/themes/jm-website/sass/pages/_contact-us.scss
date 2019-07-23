@@ -62,19 +62,19 @@
 }
 
 .footer {
-		&-top {
-			padding: 70px 0;
-			background: $light-blue;
-			clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
-			-webkit-clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
-			position: relative;
-			top: -92px;
-			margin-bottom: -95px;
+	&-top {
+		padding: 70px 0;
+		background: $light-blue;
+		clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
+		-webkit-clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
+		position: relative;
+		top: -92px;
+		margin-bottom: -95px;
 
-			@include respond-to(mobile){
-				clip-path: none;
-				top: 0px;
-				margin-bottom: 0px;
-			}
+		@include respond-to(mobile) {
+			clip-path: none;
+			top: 0px;
+			margin-bottom: 0px;
 		}
 	}
+}

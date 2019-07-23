@@ -8,11 +8,18 @@
 		color: $white;
 		position: relative;
 
+		@include respond-to(mobile) {
+			height: 100vh;
+		}
+
 		.quotes-wrapper {
 			@include respond-to(mobile) {
-				margin-top: 250px;
 				.glide__slide {
 					text-align: center;
+					p{
+						font-size: 30px;
+						line-height: 40px;
+					}
 				}
 				.glide__bullets {
 					text-align: center;
@@ -33,7 +40,13 @@
 			}
 
 			@include respond-to(mobile) {
-				display: none;
+				top: 60vh;
+				right: unset;
+				bottom: 0px;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 300px;
+				overflow: hidden;
 			}
 
 		}

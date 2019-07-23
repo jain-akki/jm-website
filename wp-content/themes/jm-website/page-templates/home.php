@@ -59,11 +59,7 @@
 							Disappointment is more often not as circumstantial as we convince ourselves of, and accomplishment not as
 							distant as we believe. The journey of coaching is about re-orchestrating your thoughts, beliefs and
 							perceptions
-							using self energy. The answer, almost always, is in the question
-							<br><br>
-							Put a client quote on the right “Jaya was like an eternal freshwater spring for the parched soul in me..”
-							Link
-							to Client Speak
+							using self energy. The answer, almost always, is in the question.
 						</p>
 						<a href="<?php echo get_page_link(9)?>" class="primary-cta">Know More</a>
 					</article>

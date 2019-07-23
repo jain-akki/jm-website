@@ -101,7 +101,7 @@ a {
 	position: relative;
 
 	@include respond-to(mobile) {
-		height: 350px;
+		height: 250px;
 	}
 
 	h1 {

@@ -29,9 +29,6 @@
 						<img src="<?php echo get_template_directory_uri() . '/images/client-stories/jaya.jpg'; ?>"
 						     alt="Jaya's Picture">
 						<p class="mt-3">Lets make today happier and tomorrow brighter</p>
-						<img class="d-md-block ml-md-auto"
-						     src="<?php echo get_template_directory_uri() . '/images/client-stories/jaya-sign.png'; ?>"
-						     alt="Jaya's Signature">
 					</article>
 					<article class="profile-right-second">
 						<h5>Follow Me</h5>

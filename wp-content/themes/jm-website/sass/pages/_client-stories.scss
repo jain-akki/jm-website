@@ -66,10 +66,7 @@
 				}
 
 				&-second {
-					border-top: 1px solid #909bb0;
 					margin-top: 20px;
-
-
 
 					h5 {
 						color: #ff870a;
@@ -89,10 +86,13 @@
 							border: 1px solid #909bb0;
 							width: 40px;
 							height: 40px;
-							margin-right: 20px;
 							display: grid;
 							place-items: center;
 							cursor: pointer;
+
+							&:not(:last-child){
+								margin-right: 20px;
+							}
 
 							a {
 								font-size: 12px;

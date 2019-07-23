@@ -43,7 +43,7 @@
 
 			<div class="row pb-3">
 				<div class="col-12">
-					<h2>“A life changing experience”</h2>
+					<h2>A life changing experience</h2>
 					<p class="text-center px-md-5 py-md-3">
 						Professional and personal imbalances can have far reaching impact on our efficiency and well-being not only
 						taking us further away from what we seek but also restricting us from seeing what we should look for.
@@ -105,8 +105,8 @@
 
 			<div class="row">
 				<div class="col-12 col-md-7 m-auto">
-					<p class="text-center pt-5">
-						Remember, A life coach only makes sure the pitch is clear.
+					<p class="text-center">
+						Remember, a life coach only makes sure the pitch is clear.
 						Ultimately, you are the source of your own revolution.
 					</p>
 				</div>

@@ -50,6 +50,17 @@
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/glide.min.js"></script>
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/main.js"></script>
 
+<script>
+	// NavBar Toggle on Mobile
+	const hamburger = document.getElementById("hamburger");
+	const headerNavigation = document.getElementById("header-navigation");
+
+	hamburger.addEventListener("click", () => {
+		headerNavigation.classList.toggle("open");
+		hamburger.classList.toggle("open");
+	});
+</script>
+
 <?php wp_footer(); ?>
 
 </body>

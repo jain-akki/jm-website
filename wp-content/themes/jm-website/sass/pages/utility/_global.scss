@@ -121,3 +121,22 @@ a {
 		}
 	}
 }
+
+div {
+	.wpcf7-mail-sent-ok {
+		border: 2px solid #ffffff;
+		font-family: $roboto-slab;
+		color: #666666;
+		font-size: 16px;
+	}
+
+	.wpcf7-response-output {
+		font-family: $roboto-slab;
+		color: #666666;
+		font-size: 16px;
+	}
+}
+
+span.wpcf7-not-valid-tip {
+	font-size: 14px;
+}

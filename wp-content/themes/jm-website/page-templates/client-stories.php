@@ -28,7 +28,7 @@
 					<article class="profile-right-first">
 						<img src="<?php echo get_template_directory_uri() . '/images/client-stories/jaya.jpg'; ?>"
 						     alt="Jaya's Picture">
-						<p class="mt-3">Lets make today happier and tomorrow brighter</p>
+						<p class="mt-3">Lets make today happier and tomorrow brighter!</p>
 					</article>
 					<article class="profile-right-second">
 						<h5>Follow Me</h5>
@@ -37,14 +37,6 @@
 							while ($q->have_posts()): $q->the_post();
 								?>
 								<div class="flex-container">
-									<div class="item">
-										<a href="<?php echo get_field('twitter_link'); ?>" target="_blank"><i
-												class="fab fa-twitter"></i></a>
-									</div>
-									<div class="item">
-										<a href="<?php echo get_field('facebook_link'); ?>" target="_blank"><i
-												class="fab fa-facebook-f"></i></a>
-									</div>
 									<div class="item">
 										<a href="<?php echo get_field('linkedin_link'); ?>" target="_blank"><i
 												class="fab fa-linkedin-in"></i></a>

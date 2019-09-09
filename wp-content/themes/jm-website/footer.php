@@ -27,8 +27,6 @@
 					<p><?php echo get_field( 'copyright' ); ?></p>
 				</div>
 				<div class="social-links">
-					<a href="<?php echo get_field( 'twitter_link' ); ?>"><i class="fab fa-twitter"></i></a>
-					<a href="<?php echo get_field( 'facebook_link' ); ?>"><i class="fab fa-facebook-f"></i></a>
 					<a href="<?php echo get_field( 'linkedin_link' ); ?>"><i class="fab fa-linkedin-in"></i></a>
 				</div>
 			<?php endwhile; ?>

@@ -17,10 +17,10 @@
 										<p>Attain your potential by traversing a path to self.</p>
 									</li>
 									<li class="glide__slide">
-										<p>Attain your potential by traversing a path to self.</p>
+										<p>Fathom what’s beyond your beliefs.</p>
 									</li>
 									<li class="glide__slide">
-										<p>Attain your potential by traversing a path to self.</p>
+										<p>Lead a journey of your becoming.</p>
 									</li>
 								</ul>
 							</div>
@@ -50,16 +50,11 @@
 							<span>Jaya Mehrotra</span>
 						</h2>
 						<p class="mb-5">
-							Change is not easy but nothing is more difficult than being stuck where you don’t belong. As we make
-							amends we
-							feel immobilized so often, even relapse after moving ahead. The journey of transformation needs deep
-							insights of
-							self and an internal alignment to objectives.
+							Change is not easy, but nothing is more difficult than being stuck where you don’t belong. As we
+							make amends we often feel immobilized and even relapse after moving ahead. The journey of
+							transformation needs deep insights of self and an internal alignment to objectives.
 							<br><br>
-							Disappointment is more often not as circumstantial as we convince ourselves of, and accomplishment not as
-							distant as we believe. The journey of coaching is about re-orchestrating your thoughts, beliefs and
-							perceptions
-							using self energy. The answer, almost always, is in the question.
+							The journey of coaching is about re-orchestrating your thoughts, beliefs, and perceptions using self-energy to turn things in favour of your contentment. The answer, almost always, is in the question. Together let's analyze those questions and find the best answers.
 						</p>
 						<a href="<?php echo get_page_link(9)?>" class="primary-cta">Know More</a>
 					</article>
@@ -75,27 +70,27 @@
 						<h2>A life changing experience</h2>
 						<p>You are the answer to your questions. Let’s make sure you ace them.</p>
 						<div class="wrapper py-5">
-							<div class="item hvr-float-shadow">
+							<a class="item hvr-float-shadow" href="<?php echo get_page_link(9)?>#express">
 								<img src="<?php echo get_template_directory_uri() . '/images/home/express.png'; ?>" alt="">
 								<div class="meta-info">
 									<h4>Express</h4>
 									<p>Open yourself</p>
 								</div>
-							</div>
-							<div class="item hvr-float-shadow">
+							</a>
+							<a class="item hvr-float-shadow" href="<?php echo get_page_link(9)?>#examine">
 								<img src="<?php echo get_template_directory_uri() . '/images/home/examine.png'; ?>" alt="">
 								<div class="meta-info">
 									<h4>Examine</h4>
 									<p>Know yourself</p>
 								</div>
-							</div>
-							<div class="item hvr-float-shadow">
+							</a>
+							<a class="item hvr-float-shadow" href="<?php echo get_page_link(9)?>#evolve">
 								<img src="<?php echo get_template_directory_uri() . '/images/home/evolve.png'; ?>" alt="">
 								<div class="meta-info">
 									<h4>Evolve</h4>
 									<p>Be your best example</p>
 								</div>
-							</div>
+							</a>
 						</div>
 						<a href="<?php echo get_page_link(9)?>#life-changing-experience" class="primary-cta">Know More</a>
 					</article>
@@ -123,20 +118,19 @@
 									</li>
 									<li class="glide__slide">
 										<p>
-											“She’s helped me trust myself, my instincts and
-											find answers within myself”
+											“Jaya has been a crucial beacon which helped me navigate a very tough yet rewarding patch of my career over the past two years.”
 										</p>
 										<span>
-											Vidya Nair, Chief Cleanliness Champion, Svabhiman Healthful Living
+											Regional Head of a Private Bank
 										</span>
 									</li>
 									<li class="glide__slide">
 										<p>
-											“She’s helped me trust myself, my instincts and
-											find answers within myself”
+											“Her commitment to me as a client is nothing short of exemplary. It is very commendable in
+											today’s time, where relationships are purely transactional, momentary and flippant”
 										</p>
 										<span>
-											Vidya Nair, Chief Cleanliness Champion, Svabhiman Healthful Living
+											Founder, HR Solutions Company
 										</span>
 									</li>
 								</ul>

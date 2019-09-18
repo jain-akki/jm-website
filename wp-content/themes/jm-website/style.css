@@ -5154,7 +5154,8 @@ span.wpcf7-not-valid-tip {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%); }
   @media only screen and (max-width: 768px) {
     .home-life-changing-experience {
-      clip-path: none; } }
+      clip-path: none;
+      -webkit-clip-path: none; } }
   .home-life-changing-experience article h2 {
     font-size: 30px;
     color: #70b1cd; }
@@ -5212,7 +5213,8 @@ span.wpcf7-not-valid-tip {
     .home-client-speak {
       top: 0px;
       margin-bottom: 0px;
-      clip-path: none; } }
+      clip-path: none;
+      -webkit-clip-path: none; } }
   .home-client-speak article {
     text-align: center; }
     .home-client-speak article h2 {
@@ -5241,6 +5243,7 @@ span.wpcf7-not-valid-tip {
   @media only screen and (max-width: 768px) {
     .my-story-lead-from-self {
       clip-path: none;
+      -webkit-clip-path: none;
       padding: 70px 0px;
       text-align: center; } }
   .my-story-lead-from-self h2 {
@@ -5263,6 +5266,7 @@ span.wpcf7-not-valid-tip {
   @media only screen and (max-width: 768px) {
     .my-story-life-changing-experience {
       clip-path: none;
+      -webkit-clip-path: none;
       top: 0px;
       margin-bottom: 0px;
       padding: 70px 0; } }
@@ -5315,6 +5319,7 @@ span.wpcf7-not-valid-tip {
   @media only screen and (max-width: 768px) {
     .client-stories-articles {
       clip-path: none;
+      -webkit-clip-path: none;
       padding: 70px 0px; } }
   .client-stories-articles .profile-left article:not(:last-child) {
     border-bottom: 1px solid #909bb0;
@@ -5383,6 +5388,7 @@ span.wpcf7-not-valid-tip {
   @media only screen and (max-width: 768px) {
     .footer-top {
       clip-path: none;
+      -webkit-clip-path: none;
       top: 0px;
       margin-bottom: 0px; } }
 
@@ -5396,6 +5402,7 @@ span.wpcf7-not-valid-tip {
   @media only screen and (max-width: 768px) {
     .contact-form {
       clip-path: none;
+      -webkit-clip-path: none;
       padding: 70px 0px; } }
   .contact-form h2 {
     font-size: 30px;
@@ -5437,7 +5444,7 @@ span.wpcf7-not-valid-tip {
   margin-bottom: -95px; }
   @media only screen and (max-width: 768px) {
     .footer-top {
-      clip-path: none;
+      -webkit-clip-path: none;
       top: 0px;
       margin-bottom: 0px; } }
 

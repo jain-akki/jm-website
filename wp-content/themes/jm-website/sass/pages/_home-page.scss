@@ -113,6 +113,7 @@
 
 		@include respond-to(mobile) {
 			clip-path: none;
+			-webkit-clip-path: none;
 		}
 
 		article {
@@ -197,6 +198,7 @@
 			top: 0px;
 			margin-bottom: 0px;
 			clip-path: none;
+			-webkit-clip-path: none;
 		}
 
 		article {
